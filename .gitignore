@@ -1,0 +1,33 @@
+### Maven ###
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### Eclipse / STS ###
+.classpath
+.project
+.settings/
+bin/
+
+### VS Code ###
+.vscode/
+
+### Java ###
+*.class
+*.log
+hs_err_pid*
+
+### Système ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Secrets ###
+.env
+*.pem
