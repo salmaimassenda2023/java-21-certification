@@ -1,6 +1,6 @@
 package com.certification.arrays.model;
 
-public class Student {
+public class Student implements Comparable<Student> {
     private final int id;
     private final String name;
     private final double gpa;
@@ -16,4 +16,10 @@ public class Student {
     public double getGpa() { return gpa; }
     //toString
     @Override public String toString() { return id + ":" + name + ":" + gpa; }
+
+    // sort by id
+    @Override
+    public int compareTo(Student o) {
+        return Integer.compare(this.id,o.id);
+    }
 }
