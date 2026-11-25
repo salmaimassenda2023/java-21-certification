@@ -9,7 +9,7 @@ public interface Catalogue {
     public void addBook(Book book);
     public List<Book> getAllBooks();
     public Book getBookByRowIndex(int index);
-    public Boolean deleteBookByIsbn(String isbn);
+    public boolean deleteBookByIsbn(String isbn);
     public Book getFirst();
     public Book getLast();
     List<Book> enOrderInverse();

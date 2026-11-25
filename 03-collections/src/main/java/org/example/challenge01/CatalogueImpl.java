@@ -28,7 +28,7 @@ public class CatalogueImpl implements Catalogue {
 
     // possible : concurrentModificationException
     @Override
-    public Boolean deleteBookByIsbn(String isbn) {
+    public boolean deleteBookByIsbn(String isbn) {
         return books.removeIf(  b -> b.isbn().equals(isbn) );
     }
 
